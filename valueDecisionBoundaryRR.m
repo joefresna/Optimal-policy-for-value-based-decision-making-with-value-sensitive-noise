@@ -1,4 +1,14 @@
 function valueDecisionBoundaryRR()
+% function valueDecisionBoundaryRR()
+%
+% This code generates the figures presented in the paper by Tajima, Drugowitsch & Pouget (2016) [1] and runs some extended simulations.
+% 
+% CITATION:
+% [1] Satohiro Tajima*, Jan Drugowitsch*, and Alexandre Pouget.
+% Optimal policy for value-based decision-making. 
+% Nature Communications, 7:12400, (2016). 
+% *Equally contributed.
+
 tic;
 Smax = 4;      % Grid range of states space (now we assume: S = [(Rhat1+Rhat2)/2, (Rhat1-Rhat2)/2]); Rhat(t) = (varR*X(t)+varX)/(t*varR+varX) )
 resS = 201;      % Grid resolution of state space
@@ -18,7 +28,7 @@ Sscale = linspace(-Smax,Smax,resS);
 iS0 = [findnearest(g{1}.meanR, Sscale) findnearest(g{2}.meanR, Sscale)];
 
 %% Utility functions:
-% utilityFunction = @(x) x;               % Linear utility function
+% utilityFunction = @(x) x;               % Linear utility function (for Fig. 3)
 utilityFunction = @(x) tanh(x);       % Saturating utility function (for Fig. 6)
 
 %% Reward rate, Average-adjusted value, Decision:
