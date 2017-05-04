@@ -8,4 +8,4 @@ CITATION:
 [1] Satohiro Tajima*, Jan Drugowitsch*, and Alexandre Pouget.
 Optimal policy for value-based decision-making. 
 Nature Communications, 7:12400, (2016). 
-*equally contributed.
+*Equally contributed.
