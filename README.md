@@ -6,5 +6,6 @@ These codes generate the figures presented in the paper by Tajima, Drugowitsch &
 CITATION:
 
 [1] Satohiro Tajima*, Jan Drugowitsch*, and Alexandre Pouget.
-Optimal policy for value-based decision-making.
-Nature Communications, 7:12400, (2016).
+Optimal policy for value-based decision-making. 
+Nature Communications, 7:12400, (2016). 
+*equally contributed.
