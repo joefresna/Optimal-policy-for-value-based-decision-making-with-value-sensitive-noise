@@ -28,8 +28,8 @@ Sscale = linspace(-Smax,Smax,resS);
 iS0 = [findnearest(g{1}.meanR, Sscale) findnearest(g{2}.meanR, Sscale)];
 
 %% Utility functions:
-% utilityFunction = @(x) x;               % Linear utility function (for Fig. 3)
-utilityFunction = @(x) tanh(x);       % Saturating utility function (for Fig. 6)
+utilityFunction = @(x) x;               % Linear utility function (for Fig. 3)
+% utilityFunction = @(x) tanh(x);       % Saturating utility function (for Fig. 6)
 
 %% Reward rate, Average-adjusted value, Decision:
 Slabel = {'r_1^{hat}', 'r_2^{hat}'};
