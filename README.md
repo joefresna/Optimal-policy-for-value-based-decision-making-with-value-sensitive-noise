@@ -1,6 +1,9 @@
-# Optimal-policy-for-value-based-decision-making
+# Optimal-policy-for-value-based-decision-making-with-value-sensitive-noise
 
-These codes generate the figures presented in the paper by Tajima, Drugowitsch & Pouget (2016) [1] and run some extended simulations.
+This code is based and forked from the code of the paper by Tajima, Drugowitsch & Pouget (2016) [1].
+
+We extended the code to run numerical simulations of the Drift Diffusion Model (DDM) with multiplicative noise on the input stimuli.
+For equal case alternatives, the DDM with multiplicative noise shows value-sensitive reaction time in agreement with experimental results on humans, primates, and invertebrates.
 
 
 CITATION:
@@ -12,4 +15,4 @@ Nature Communications, 7:12400, (2016).
 
 
 USAGE:
-'valueDecisionBoundaryRR.m' generates figures used in Figs. 3 or 6 in the paper.  You can switch the utility function assumed in the model by removing commented-out lines in the code. 
+'valueDecisionBoundaryRR.m' generates figures for various values of multiplicative noise. 
